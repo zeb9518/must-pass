@@ -1,0 +1,24 @@
+.css-button-3d--rose {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ff6392;
+    box-shadow: 0 5px #ff0a78;
+  }
+  .css-button-3d--rose:hover {
+    box-shadow: 0 3px #ff0a78;
+    top: 1px;
+  }
+  .css-button-3d--rose:active {
+    box-shadow: 0 0 #ff0a78;
+    top: 5px;
+  }
