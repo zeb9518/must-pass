@@ -2,13 +2,14 @@ package app
 
 import (
 	"github.com/gin-gonic/gin"
-	"z-issue/service"
+	"server/service"
 )
 
 type TopicApi struct {
-	topicService *service.TopicService
+	service.TopicService
 }
 
-func (this *TopicApi) getTopic(c *gin.Context) {
+// 获取题目
+func (this *TopicApi) GetTopic(c *gin.Context) {
 
 }

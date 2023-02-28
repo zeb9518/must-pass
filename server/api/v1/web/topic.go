@@ -2,9 +2,9 @@ package web
 
 import (
 	"github.com/gin-gonic/gin"
-	"z-issue/global"
-	"z-issue/models"
-	"z-issue/service"
+	"server/global"
+	"server/models"
+	"server/service"
 )
 
 type TopicApi struct {

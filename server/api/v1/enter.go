@@ -1,12 +1,13 @@
 package v1
 
 import (
-	"z-issue/api/v1/app"
-	"z-issue/api/v1/web"
+	"server/api/v1/app"
+	"server/api/v1/web"
 )
 
 type WebGroup struct {
-	AppTopic app.TopicApi
+	AppTopic   app.TopicApi
+	AppSubject app.SubjectApi
 	web.TopicApi
 }
 

@@ -2,7 +2,7 @@ package initialize
 
 import (
 	"github.com/gin-gonic/gin"
-	v1 "z-issue/api/v1"
+	v1 "server/api/v1"
 )
 
 func Router() {
@@ -10,6 +10,12 @@ func Router() {
 	Api := engine.Group("/api")
 	{
 		Api.POST("/topic/create", v1.Group.TopicApi.CreateTopic)
+	}
+
+	App := engine.Group("/app/api")
+	{
+		App.GET("subject/list", v1.Group.AppSubject.GetSubjectList)
+		App.GET("topic/list", v1.Group.AppTopic.GetTopic)
 	}
 
 	// 启动、监听端口

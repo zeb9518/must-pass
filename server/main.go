@@ -1,6 +1,6 @@
 package main
 
-import "z-issue/initialize"
+import "server/initialize"
 
 func main() {
 	initialize.Mysql()

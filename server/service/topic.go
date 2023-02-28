@@ -1,8 +1,8 @@
 package service
 
 import (
-	"z-issue/global"
-	"z-issue/models"
+	"server/global"
+	"server/models"
 )
 
 type TopicService struct {
